@@ -15,11 +15,7 @@ with open(election_data) as csvfile:
 #The total number of votes cast
 Total_Votes = len(Candidate)
 
-#A complete list of candidates who received votes
-Candidate_Count = list(set(Candidate))
-
 #The percentage of votes each candidate won
-
 Degette_Counter = 0
 Doane_Counter = 0
 Stockham_Counter = 0
